@@ -1,0 +1,23 @@
+.link-homepage {
+    background-color: #c62828;
+    color: white;
+    fill: white;
+}
+
+.link-blog {
+    background-color: #252627;
+    color: white;
+    fill: orange;
+}
+
+.link-resume {
+    background-color: #1d64ab;
+    color: white;
+    fill: white;
+}
+
+.link-contact {
+    background-color: #0f7629;
+    color: white;
+    fill: white;
+}

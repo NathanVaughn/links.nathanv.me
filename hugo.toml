@@ -1,0 +1,23 @@
+baseurl      = "/"
+languageCode = "en-us"
+themesDir    = "node_modules"
+theme        = "hugo-lynx-theme"
+title        = "Nathan Vaughn's 🔗s"
+
+enableEmoji  = true
+disableKinds = ["taxonomy", "term"]
+
+[author]
+    name = "Nathan Vaughn"
+    headline = "Aerospace engineer with a passion for Python"
+    # only works with a local image
+    image = "images/chibi.png"
+    # https://github.com/jpanther/lynx#example
+    links = [
+        { homepage = { href = "https://nathanv.me", text = "Homepage" } },
+        { blog = { href = "https://nthnv.me/blog", text = "Blog" } },
+        { resume = { href = "https://nthnv.me/resume", text = "Resume" } },
+        { github = "https://nthnv.me/github" },
+        { linkedin = "https://nthnv.me/linkedin" },
+        { contact = { href = "https://nthnv.me/contact", text = "Contact Me" } },
+    ]

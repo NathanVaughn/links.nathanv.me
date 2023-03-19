@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "hugo-extended": "^0.111.3",
+    "hugo-lynx-theme": "github:jpanther/lynx#v1.2.4"
+  },
+  "scripts": {
+    "build": "hugo --cleanDestinationDir",
+    "server": "hugo server"
+  }
+}
