@@ -7,6 +7,11 @@ title        = "Nathan Vaughn's 🔗s"
 enableEmoji  = true
 disableKinds = ["taxonomy", "term"]
 
+# better resampling algorithm
+[imaging]
+  quality = 95
+  resampleFilter = "lanczos"
+
 [author]
     name = "Nathan Vaughn"
     headline = "Aerospace engineer with a passion for Python"
