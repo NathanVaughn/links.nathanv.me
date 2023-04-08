@@ -4,7 +4,8 @@ themesDir    = "node_modules"
 theme        = "hugo-lynx-theme"
 title        = "Nathan Vaughn's 🔗s"
 
-enableEmoji  = true
+enableEmoji     = true
+enableRobotsTXT = true
 disableKinds = ["taxonomy", "term", "RSS"]
 
 # better resampling algorithm

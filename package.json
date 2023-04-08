@@ -1,11 +1,11 @@
 {
   "dependencies": {
-    "cross-env": "^7.0.3",
+    "cross-spawn": "^7.0.3",
     "hugo-extended": "^0.111.3",
     "hugo-lynx-theme": "github:jpanther/lynx#v1.2.4"
   },
   "scripts": {
-    "build": "cross-env HUGO_BASEURL=https://links.nathanv.me hugo --cleanDestinationDir",
+    "build": "node build.js",
     "server": "hugo server"
   }
 }
