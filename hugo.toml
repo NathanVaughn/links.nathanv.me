@@ -5,7 +5,7 @@ theme        = "hugo-lynx-theme"
 title        = "Nathan Vaughn's 🔗s"
 
 enableEmoji  = true
-disableKinds = ["taxonomy", "term"]
+disableKinds = ["taxonomy", "term", "RSS"]
 
 # better resampling algorithm
 [imaging]
