@@ -25,5 +25,6 @@ disableKinds = ["taxonomy", "term", "RSS"]
         { resume = { href = "https://nthnv.me/resume", text = "Resume" } },
         { github = "https://nthnv.me/github" },
         { linkedin = "https://nthnv.me/linkedin" },
+        { keybase = "https://nthnv.me/keybase" },
         { contact = { href = "https://nthnv.me/contact", text = "Contact Me" } },
     ]
