@@ -6,25 +6,34 @@ title        = "Nathan Vaughn's 🔗s"
 
 enableEmoji     = true
 enableRobotsTXT = true
-disableKinds = ["taxonomy", "term", "RSS"]
+disableKinds    = ["taxonomy", "term", "RSS"]
 
 # better resampling algorithm
 [imaging]
-  quality = 95
+  quality        = 95
   resampleFilter = "lanczos"
 
 [author]
-    name = "Nathan Vaughn"
-    headline = "Aerospace engineer with a passion for Python"
-    # only works with a local image
-    image = "images/chibi.png"
-    # https://github.com/jpanther/lynx#example
-    links = [
-        { homepage = { href = "https://nathanv.me", text = "Homepage" } },
-        { blog = { href = "https://nthnv.me/blog", text = "Blog" } },
-        { resume = { href = "https://nthnv.me/resume", text = "Resume" } },
-        { github = "https://nthnv.me/github" },
-        { linkedin = "https://nthnv.me/linkedin" },
-        { keybase = "https://nthnv.me/keybase" },
-        { contact = { href = "https://nthnv.me/contact", text = "Contact Me" } },
-    ]
+  name     = "Nathan Vaughn"
+  headline = "Aerospace engineer with a passion for Python"
+  # only works with a local image
+  image = "images/chibi.png"
+  # https://github.com/jpanther/lynx#example
+  links = [
+    { homepage = { href = "https://nathanv.me", text = "Homepage" } },
+    { blog = { href = "https://blog.nathanv.me", text = "Blog" } },
+    { resume = { href = "https://drive.google.com/file/d/196UttKqnzg0uKLpcvdsckkBMCYO3gWW2/view?usp=sharing", text = "Resume" } },
+    { github = "https://github.com/NathanVaughn" },
+    { linkedin = "https://www.linkedin.com/in/navaughn/" },
+    { keybase = "https://keybase.io/nathanvaughn" },
+    { contact = { href = "https://forms.gle/Aj5LSgvmEF3ZvfqJ9", text = "Contact Me" } },
+  ]
+
+  nonrender_links = [
+    { ham = "https://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?licKey=3997912" },
+    { cswa = "https://cv.virtualtester.com/qr/?b=SLDWRKS&i=C-P29LMTJLE2" },
+    { cswp = "https://cv.virtualtester.com/qr/?b=SLDWRKS&i=C-4E3UMXYK2A" },
+    { patent = "https://patents.google.com/patent/US11360375B1/" },
+    { ksp10 = "https://youtu.be/vla6vpa1-Bk?t=324" },
+    { bellmsignite21 = "https://www.youtube.com/watch?v=mM7_zFAIJ9A" },
+  ]
