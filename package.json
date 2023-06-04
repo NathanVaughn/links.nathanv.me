@@ -2,7 +2,7 @@
   "dependencies": {
     "@iarna/toml": "^2.2.5",
     "cross-spawn": "^7.0.3",
-    "hugo-extended": "^0.111.3",
+    "hugo-extended": "^0.112.3",
     "hugo-lynx-theme": "github:jpanther/lynx#v1.3.0"
   },
   "scripts": {
