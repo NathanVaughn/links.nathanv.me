@@ -2,7 +2,7 @@ const toml = require("@iarna/toml");
 const fs = require("fs");
 const path = require("path");
 
-var cf_redirects_file = path.join("public", "_redirects");
+let cf_redirects_file = path.join("public", "_redirects");
 
 function create_page_redirect(slug, redirect_url){
     // realistically speaking, this doesn't do anything,
@@ -39,22 +39,18 @@ if (fs.existsSync(cf_redirects_file)){
 }
 
 // parse the toml file
-var hugo_config = toml.parse(fs.readFileSync("hugo.toml"));
-var all_links = hugo_config.author.links.concat(hugo_config.author.nonrender_links);
+let hugo_config = toml.parse(fs.readFileSync("hugo.toml"));
+let all_links = hugo_config.author.links.concat(hugo_config.author.nonrender_links);
 
 all_links.forEach(element => {
     // get the url slug
-    var slug = Object.keys(element)[0];
+    let slug = Object.keys(element)[0];
 
     // get the data for it
-    var data = element[slug];
+    let data = element[slug];
 
     // if it's just a string, use that, otherwise use the value from the "href" key.
-    if (typeof data == "string") {
-        var redirect_url = data;
-    } else {
-        var redirect_url = data.href;
-    }
+    let redirect_url = typeof data == "string" ? data : data.href;
 
     console.log(`Creating redirect for /${slug} to ${redirect_url}`);
 
