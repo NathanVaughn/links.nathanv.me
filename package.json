@@ -6,7 +6,7 @@
     "hugo-lynx-theme": "github:jpanther/lynx#v1.3.1"
   },
   "scripts": {
-    "build": "node build.js && node postprocess.js",
+    "build": "node build.js",
     "server": "hugo server"
   }
 }
