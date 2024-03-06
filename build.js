@@ -17,6 +17,7 @@ cmd = spawn.sync("npx", ["hugo", "--cleanDestinationDir", "--minify", "-b", base
 
 if (cmd.error) {
     console.log("ERROR: ", cmd.error);
+    process.exit(cmd.status);
 }
 
 console.log(cmd.stdout);
@@ -78,4 +79,3 @@ all_links.forEach(element => {
     create_cf_redirect(slug, redirect_url);
 });
 
-process.exit(cmd.status);
