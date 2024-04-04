@@ -11,7 +11,7 @@ disableKinds    = ["taxonomy", "term", "RSS"]
 # better resampling algorithm
 [imaging]
   quality        = 95
-  resampleFilter = "lanczos"
+  resampleFilter = "Lanczos"
 
 [author]
   name     = "Nathan Vaughn"
@@ -26,7 +26,7 @@ disableKinds    = ["taxonomy", "term", "RSS"]
     { github = "https://github.com/NathanVaughn" },
     { linkedin = "https://www.linkedin.com/in/navaughn/" },
     { keybase = "https://keybase.io/nathanvaughn" },
-    { contact = { href = "https://forms.gle/Aj5LSgvmEF3ZvfqJ9", text = "Contact Me" } },
+    { contact = { href = "mailto:nath@nvaughn.email", text = "Contact Me" } },
   ]
 
   nonrender_links = [
