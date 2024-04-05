@@ -1,0 +1,6 @@
+name = "links-nathanv-me"
+pages_build_output_dir = "public"
+compatibility_date = "2023-03-19"
+
+[env.production]
+compatibility_date = "2023-03-19"
