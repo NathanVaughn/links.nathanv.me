@@ -1,0 +1,21 @@
+{
+    "image": "ghcr.io/nathanvaughn/devcontainers/node:20",
+    "postCreateCommand": "npm install",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "tamasfe.even-better-toml",
+                "mhutchie.git-graph",
+                "mkxml.vscode-filesize",
+                "kaellarkin.hugo-shortcode-syntax",
+                "kisstkondoros.vscode-gutter-preview",
+                "Tyriar.luna-paint",
+                "yzhang.markdown-all-in-one",
+                "DavidAnson.vscode-markdownlint",
+                "mushan.vscode-paste-image",
+                "actboy168.tasks",
+                "shardulm94.trailing-spaces"
+            ]
+        }
+    }
+}
