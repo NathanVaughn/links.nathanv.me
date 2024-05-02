@@ -1,5 +1,5 @@
 {
-    "image": "ghcr.io/nathanvaughn/devcontainers/node:20",
+    "image": "ghcr.io/nathanvaughn/devcontainers/node:latest",
     "postCreateCommand": "npm install",
     "customizations": {
         "vscode": {
