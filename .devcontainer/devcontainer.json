@@ -17,5 +17,8 @@
                 "shardulm94.trailing-spaces"
             ]
         }
-    }
+    },
+    "mounts": [
+        "source=devcontainer-profile,target=/home/vscode/,type=volume"
+    ]
 }
