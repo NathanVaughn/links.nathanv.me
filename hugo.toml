@@ -13,7 +13,7 @@ disableKinds    = ["taxonomy", "term", "RSS"]
   quality        = 95
   resampleFilter = "Lanczos"
 
-[author]
+[params.author]
   name     = "Nathan Vaughn"
   headline = "Aerospace engineer with a passion for Python"
   # only works with a local image
