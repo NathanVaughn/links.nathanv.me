@@ -66,8 +66,8 @@ if (fs.existsSync(cf_redirects_file)) {
 
 // parse the toml file
 let hugo_config = toml.parse(fs.readFileSync("hugo.toml"));
-let all_links = hugo_config.author.links.concat(
-  hugo_config.author.nonrender_links
+let all_links = hugo_config.params.author.links.concat(
+  hugo_config.params.author.nonrender_links
 );
 
 all_links.forEach((element) => {
