@@ -25,7 +25,7 @@ disableKinds    = ["taxonomy", "term", "RSS"]
     { resume = { href = "https://drive.google.com/file/d/196UttKqnzg0uKLpcvdsckkBMCYO3gWW2/view?usp=sharing", text = "Resume" } },
     { github = "https://github.com/NathanVaughn" },
     { linkedin = "https://www.linkedin.com/in/navaughn/" },
-    { keybase = "https://keybase.io/nathanvaughn" },
+    { gpg = { href = "https://raw.githubusercontent.com/NathanVaughn/public-keys/main/gpg.pub", text = "GPG Key" } },
     { contact = { href = "mailto:nath@nvaughn.email", text = "Contact Me" } },
   ]
 
