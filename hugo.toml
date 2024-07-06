@@ -1,7 +1,6 @@
 baseurl      = "/"
 languageCode = "en-us"
-themesDir    = "node_modules"
-theme        = "hugo-lynx-theme"
+theme        = "lynx"
 title        = "Nathan Vaughn's 🔗s"
 
 enableEmoji     = true
@@ -37,4 +36,5 @@ disableKinds    = ["taxonomy", "term", "RSS"]
     { ksp10 = "https://youtu.be/vla6vpa1-Bk?t=324" },
     { bellmsignite21 = "https://www.youtube.com/watch?v=mM7_zFAIJ9A" },
     { shopbot = "https://nathanv.me/skills/NathanVaughnShopbot.pdf" },
+    { ssh = "https://raw.githubusercontent.com/NathanVaughn/public-keys/main/ssh.pub"},
   ]

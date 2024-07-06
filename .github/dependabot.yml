@@ -6,6 +6,15 @@ updates:
     schedule:
       interval: monthly
     groups:
-      all:
+      npm-all:
+        patterns:
+          - "*"
+
+  - package-ecosystem: gitsubmodule
+    directory: "/"
+    schedule:
+      interval: monthly
+    groups:
+      gitsubmodule-all:
         patterns:
           - "*"
