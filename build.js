@@ -14,7 +14,15 @@ if (process.env.CF_PAGES_BRANCH === "main") {
 console.log(`Using base url "${base_url}"`);
 cmd = spawn.sync(
   "npx",
-  ["hugo", "--verbose", "--cleanDestinationDir", "--minify", "-b", base_url],
+  [
+    "hugo",
+    "--logLevel",
+    "info",
+    "--cleanDestinationDir",
+    "--minify",
+    "-b",
+    base_url,
+  ],
   { encoding: "utf8" }
 );
 
