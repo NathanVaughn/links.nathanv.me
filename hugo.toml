@@ -35,6 +35,7 @@ disableKinds    = ["taxonomy", "term", "RSS"]
     { patent = "https://patents.google.com/patent/US11360375B1/" },
     { ksp10 = "https://youtu.be/vla6vpa1-Bk?t=324" },
     { bellmsignite21 = "https://www.youtube.com/watch?v=mM7_zFAIJ9A" },
+    { bellmsignite21keynote = "https://youtu.be/Bha8qs4wB_8?t=12218" },
     { shopbot = "https://nathanv.me/skills/NathanVaughnShopbot.pdf" },
     { ssh = "https://raw.githubusercontent.com/NathanVaughn/public-keys/main/ssh.pub"},
   ]
