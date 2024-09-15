@@ -2,7 +2,7 @@
   "dependencies": {
     "@iarna/toml": "^2.2.5",
     "cross-spawn": "^7.0.3",
-    "hugo-extended": "^0.133.0"
+    "hugo-extended": "^0.134.0"
   },
   "scripts": {
     "build": "node build.js",
