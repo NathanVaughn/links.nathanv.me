@@ -19,6 +19,6 @@
         }
     },
     "mounts": [
-        "source=devcontainer-profile-${containerWorkspaceFolderBasename},target=/home/node/,type=volume"
+        "source=devcontainer-profile-${containerWorkspaceFolderBasename},target=/home/dev/,type=volume"
     ]
 }
