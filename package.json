@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "@iarna/toml": "^2.2.5",
-    "cross-spawn": "^7.0.3",
+    "cross-spawn": "^7.0.5",
     "hugo-extended": "^0.136.0"
   },
   "scripts": {
