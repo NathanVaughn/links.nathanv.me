@@ -16,7 +16,7 @@ disableKinds    = ["taxonomy", "term", "RSS"]
   name     = "Nathan Vaughn"
   headline = "Aerospace engineer with a passion for Python"
   # only works with a local image
-  image = "images/chibi.png"
+  image = "images/emerson_profile_cropped.png"
   # https://github.com/jpanther/lynx#example
   links = [
     { homepage = { href = "https://nathanv.me", text = "Homepage" } },
