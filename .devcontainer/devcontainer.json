@@ -1,6 +1,6 @@
 {
     "image": "ghcr.io/nathanvaughn/devcontainers/node:latest",
-    "postCreateCommand": "fnm install && npm install && git submodule update --init --recursive",
+    "postCreateCommand": "fnm install && npm install",
     "customizations": {
         "vscode": {
             "extensions": [
