@@ -1,5 +1,4 @@
 baseurl      = "/"
-languageCode = "en-us"
 theme        = "lynx"
 title        = "Nathan Vaughn's 🔗s"
 
@@ -7,8 +6,15 @@ enableEmoji     = true
 enableRobotsTXT = true
 disableKinds    = ["taxonomy", "term", "RSS"]
 
+[language]
+  locale       = "en-us"
+
 # better resampling algorithm
-[imaging]
+[imaging.jpeg]
+  quality        = 95
+  resampleFilter = "Lanczos"
+
+[imaging.webp]
   quality        = 95
   resampleFilter = "Lanczos"
 
